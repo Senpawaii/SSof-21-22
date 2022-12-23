@@ -1,0 +1,3 @@
+[{'vulnerability': 'A_1', 'source': 'src', 'sink': 'c', 'unsanitized flows': 'yes', 'sanitized flows': [['f']]},
+  {'vulnerability': 'A_2', 'source': 'w', 'sink': 'c', 'unsanitized flows': 'yes', 'sanitized flows': []},
+  {'vulnerability': 'B_1', 'source': 'w', 'sink': 'c', 'unsanitized flows': 'yes', 'sanitized flows': []}]

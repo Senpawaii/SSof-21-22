@@ -1,0 +1,79 @@
+{
+    "ast_type": "Module",
+    "body": [
+        {
+            "ast_type": "Assign",
+            "col_offset": 0,
+            "end_col_offset": 18,
+            "end_lineno": 1,
+            "lineno": 1,
+            "targets": [
+                {
+                    "ast_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "ast_type": "Store"
+                    },
+                    "end_col_offset": 4,
+                    "end_lineno": 1,
+                    "id": "pato",
+                    "lineno": 1
+                }
+            ],
+            "type_comment": null,
+            "value": {
+                "ast_type": "Call",
+                "args": [
+                    {
+                        "ast_type": "Name",
+                        "col_offset": 9,
+                        "ctx": {
+                            "ast_type": "Load"
+                        },
+                        "end_col_offset": 10,
+                        "end_lineno": 1,
+                        "id": "a",
+                        "lineno": 1
+                    },
+                    {
+                        "ast_type": "Call",
+                        "args": [],
+                        "col_offset": 12,
+                        "end_col_offset": 17,
+                        "end_lineno": 1,
+                        "func": {
+                            "ast_type": "Name",
+                            "col_offset": 12,
+                            "ctx": {
+                                "ast_type": "Load"
+                            },
+                            "end_col_offset": 15,
+                            "end_lineno": 1,
+                            "id": "get",
+                            "lineno": 1
+                        },
+                        "keywords": [],
+                        "lineno": 1
+                    }
+                ],
+                "col_offset": 7,
+                "end_col_offset": 18,
+                "end_lineno": 1,
+                "func": {
+                    "ast_type": "Name",
+                    "col_offset": 7,
+                    "ctx": {
+                        "ast_type": "Load"
+                    },
+                    "end_col_offset": 8,
+                    "end_lineno": 1,
+                    "id": "f",
+                    "lineno": 1
+                },
+                "keywords": [],
+                "lineno": 1
+            }
+        }
+    ],
+    "type_ignores": []
+}

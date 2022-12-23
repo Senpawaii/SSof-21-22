@@ -1,0 +1,1 @@
+pato = f(a, get())
